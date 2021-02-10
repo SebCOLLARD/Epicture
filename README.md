@@ -10,11 +10,11 @@
 
 <!-- Contributors -->
 ## Contributors: 
-   Thomas CONTINI 
    [![LinkedIn][linkedin-shield]][linkedin-url]
+   Thomas CONTINI 
    
-   Sébastien COLLARD
    [![LinkedIn][linkedin-shield]][linkedin-url2]
+   Sébastien COLLARD
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
