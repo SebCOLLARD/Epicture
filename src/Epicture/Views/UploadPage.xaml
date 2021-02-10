@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Epicture.Views.UploadPage"
+             Title="{Binding Title}"
+             BackgroundColor="{StaticResource color25}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="5">
+                <Frame BackgroundColor="#000000" CornerRadius="2" HasShadow="True" Padding="20">
+                    <StackLayout>
+                        <Label Text="Add a title (Mandatory)" FontSize="Medium"></Label>
+                        <Editor x:Name="imageTitles"></Editor>
+                        <Label Text="Add a description" FontSize="Medium"></Label>
+                        <Editor x:Name="imageDescription"></Editor>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#000000" CornerRadius="2" HasShadow="True">
+                    <StackLayout>
+                        <ImageButton BackgroundColor="#000000" x:Name="imagePreview"  HeightRequest="150" Clicked="Choose_Image_Click" />
+                    </StackLayout>
+                </Frame>
+                <Label x:Name="error_text" HorizontalOptions="Center" ></Label>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Button CornerRadius="5" BackgroundColor="#346852" Text="Upload" FontSize="Medium" HorizontalOptions="Center" Clicked="Save_Image_Click" x:Name="saveImage"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
