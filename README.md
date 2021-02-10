@@ -10,11 +10,10 @@
 
 <!-- Contributors -->
 ## Contributors: 
-   [![LinkedIn][linkedin-shield]][linkedin-url]
-   Thomas CONTINI 
+
+   Thomas CONTINI (thomas.contini@epitech.eu)
    
-   [![LinkedIn][linkedin-shield]][linkedin-url2]
-   Sébastien COLLARD
+   Sébastien COLLARD (sebastien.collard@epitech.eu)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
