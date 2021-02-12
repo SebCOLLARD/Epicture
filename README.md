@@ -1,7 +1,7 @@
 <!-- Description -->
 ## Description:
     Epicture is a third year Epitech project to learn how to develop an mobile application.
-    For this project with my teammate we decide to use [Xamarin](https://dotnet.microsoft.com/apps/xamarin).
+    For this project with my teammate we decide to use  Xamarin (https://dotnet.microsoft.com/apps/xamarin).
 
 <!-- Where is the APK ? -->
 ## Where is the APK ?:
